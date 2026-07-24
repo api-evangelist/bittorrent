@@ -1,8 +1,16 @@
 aid: bittorrent
 name: BitTorrent
-description: 'BitTorrent is a company surfaced as a portfolio company of dcm-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  BitTorrent is the company behind the BitTorrent peer-to-peer file-sharing
+  protocol and the uTorrent and BitTorrent desktop and web torrent clients, one
+  of the most widely deployed distributed content-delivery technologies on the
+  internet. Now part of the TRON ecosystem, BitTorrent also operates BitTorrent
+  Chain (BTTC) — a layer-2 proof-of-stake cross-chain scaling and interoperability
+  network bridging TRON, Ethereum, and BSC — along with the BTT token, the BTFS
+  decentralized storage layer, and BitTorrent Speed. Its developer surface spans
+  the local uTorrent Web UI API for controlling torrent clients and the BitTorrent
+  Chain developer documentation for building on the BTTC network. Surfaced as a
+  portfolio company of dcm-ventures and enriched into the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/bittorrent/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,30 @@ x-backed-by:
 - dcm-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.bittorrent.com/social/bittorrent.png
 tags:
 - Company
 - Consumer
+- File Sharing
+- Torrent
+- Peer-to-Peer
+- Blockchain
+- BitTorrent Chain
+- Decentralized Storage
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +50,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.bittorrent.com/
+  url: https://www.bittorrent.com/
+- type: Documentation
+  url: https://doc.bt.io/
+- type: APIReference
+  url: https://github.com/bittorrent/webui/wiki/Web-UI-API
+- type: GettingStarted
+  url: https://doc.bt.io/docs/quickstart
+- type: GitHubOrganization
+  url: https://github.com/bittorrent
+- type: Support
+  url: https://help.bittorrent.com/
+- type: Blog
+  url: https://www.bittorrent.com/blog/
+- type: TermsOfService
+  url: https://www.bittorrent.com/legal/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.bittorrent.com/legal/privacy-policy/
+- type: DomainSecurity
+  url: security/bittorrent-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
